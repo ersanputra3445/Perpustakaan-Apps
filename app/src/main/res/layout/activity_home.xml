@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTintMode="src_over"
+    android:padding="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="676dp">
+
+        <!-- Square Views and Buttons -->
+
+        <ImageView
+            android:id="@+id/squareView"
+            android:layout_width="387dp"
+            android:layout_height="138dp"
+            android:background="#404D87"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.571"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.031" />
+
+        <ImageView
+            android:id="@+id/squareView4"
+            android:layout_width="382dp"
+            android:layout_height="154dp"
+            android:backgroundTint="#404D88"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.348" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="82dp"
+            android:layout_height="83dp"
+            app:srcCompat="@drawable/room"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_editor_absoluteY="206dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="95dp"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/download"
+            tools:layout_editor_absoluteX="47dp"
+            tools:layout_editor_absoluteY="206dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="95dp"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/book_loan"
+            tools:layout_editor_absoluteX="155dp"
+            tools:layout_editor_absoluteY="206dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

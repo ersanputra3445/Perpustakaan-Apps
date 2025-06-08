@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "601672970624",
+    "firebase_url": "https://library-umn-mobapp-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "library-umn-mobapp",
+    "storage_bucket": "library-umn-mobapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601672970624:android:c0dbc70cf63792d7475165",
+        "android_client_info": {
+          "package_name": "com.Mobile.App.Library"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-49ABGjCZVGSZs3vOcJizz_8zFbYq-IM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
