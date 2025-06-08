@@ -23,3 +23,14 @@ Aplikasi Perpustakaan ini bertujuan untuk mempermudah pengelolaan data buku, pem
 
 ## Language Pemrogaman 
 - Java
+  
+## Files Included
+
+- `/app/` – Main application source code (activities, layouts, logic, etc.)
+- `/gradle/wrapper/` – Gradle wrapper configuration
+- `build.gradle` – Main Gradle build configuration file
+- `gradle.properties` – Project-wide Gradle settings
+- `gradlew` – Unix shell script to run Gradle commands
+- `gradlew.bat` – Windows batch script to run Gradle commands
+- `settings.gradle` – Defines Gradle module settings
+- `README.md` – Project documentation (this file)
